@@ -1,0 +1,49 @@
+name: Publish verified Android update
+on:
+  push:
+    branches: [main]
+    paths: ["delivery/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: "platform-tools build-tools;36.0.0"
+          log-accepted-android-sdk-licenses: false
+      - name: Check version, checksum, and signing certificate
+        id: update
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="$(cat delivery/tag.txt)"
+          [[ "$tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+-build[0-9]+$ ]]
+          apk="delivery/Ghuraba-${tag#v}.apk"
+          test -s "$apk"
+          test -s delivery/UPDATE-NOTES.md
+          (cd delivery && sha256sum --check --status SHA256SUMS.txt)
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose --print-certs "$apk" > "$RUNNER_TEMP/signature.txt"
+          grep -q '3bd35c695b6748a7e21753aced829494654b08e4628cfe7685832942c3d65b52' "$RUNNER_TEMP/signature.txt"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "apk=$apk" >> "$GITHUB_OUTPUT"
+      - name: Publish release for the app
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.update.outputs.tag }}
+          APK: ${{ steps.update.outputs.apk }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists."
+            exit 0
+          fi
+          gh release create "$TAG" "$APK" delivery/SHA256SUMS.txt --target "$GITHUB_SHA" --title "Ghuraba ${TAG#v}" --notes-file delivery/UPDATE-NOTES.md --latest
