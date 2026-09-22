@@ -4,6 +4,13 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.8
+
+- Dailys können zur eingetragenen Uhrzeit eine lokale Android-Benachrichtigung senden.
+- Dailys können als fehlgeschlagen markiert werden. Ein Grund ist verpflichtend und bleibt im datierten Rückblick sichtbar.
+- Jede Gewohnheit kann zu einer eigenen Uhrzeit eine ermutigende tägliche Erinnerung senden. Abgehakte Tage werden beim Neuplanen ausgelassen.
+- Die neuen Einstellungen und Fehlschlagsgründe gehören zum verschlüsselten Tresor und werden über Supabase zwischen Geräten synchronisiert. Die Android-Benachrichtigungsberechtigung gilt weiterhin pro Gerät.
+
 # Ghuraba 0.1.7
 
 - Neue Gebetsbegleitung: zehn Minuten vor dem Gebet und danach alle zehn Minuten bis zum Eintrag.
