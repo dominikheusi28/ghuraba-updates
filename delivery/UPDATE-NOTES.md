@@ -4,6 +4,13 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.9
+
+- Auf Heute gibt es jetzt einen kompakten Wochenfokus. Zu Beginn jeder Woche lassen sich mehrere Ziele mit einem kurzen Plan festhalten und einzeln abhaken.
+- Genau ein Ziel kann als großes Hauptziel markiert werden. Nur dieses Ziel darf einmal täglich zu einer frei gewählten Uhrzeit erinnern; am Sonntag oder nach dem Abhaken enden die Erinnerungen.
+- Wochenziele bleiben im 7-, 30- und 90-Tage-Rückblick sichtbar. Sie gehören zum verschlüsselten Tresor und werden über Supabase zwischen Geräten synchronisiert.
+- Bestehende Tresore bleiben kompatibel. Die Android-Benachrichtigungsberechtigung und die lokale Planung gelten weiterhin pro Gerät.
+
 # Ghuraba 0.1.8
 
 - Dailys können zur eingetragenen Uhrzeit eine lokale Android-Benachrichtigung senden.
