@@ -4,6 +4,13 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.10
+
+- Offene Dailys von gestern können am folgenden Tag über den kompakten Hinweis „Gestern nachtragen“ geöffnet und abgehakt werden.
+- Am Montag lassen sich auch offene Wochenziele der gerade beendeten Woche nachtragen.
+- Das ursprüngliche Aufgaben- oder Wochendatum bleibt erhalten. Zusätzlich speichert der verschlüsselte Tresor den tatsächlichen Tag des Nachtragens und zeigt ihn in Aufgabe und Rückblick an.
+- Nachgetragene Erledigungen werden wie alle anderen Tresordaten über Supabase zwischen angemeldeten Geräten synchronisiert.
+
 # Ghuraba 0.1.9
 
 - Auf Heute gibt es jetzt einen kompakten Wochenfokus. Zu Beginn jeder Woche lassen sich mehrere Ziele mit einem kurzen Plan festhalten und einzeln abhaken.
