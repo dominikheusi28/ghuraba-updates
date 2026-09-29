@@ -4,6 +4,13 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.11
+
+- Wochenziele können jetzt als fehlgeschlagen markiert werden. Ein ehrlicher Grund ist verpflichtend und bleibt im Wochen- und Tagesrückblick sichtbar.
+- Beim Scheitern stoppt die tägliche Erinnerung des Wochenfokus. Das Ziel kann weiterhin später erledigt werden.
+- Für die beharrlichen Gebetserinnerungen lässt sich der Abstand nach Gebetsbeginn zwischen 10 und 60 Minuten wählen, zum Beispiel alle 15 oder 25 Minuten.
+- Fehlschlagsgründe und Erinnerungsabstand gehören zum verschlüsselten Tresor und werden über Supabase zwischen angemeldeten Geräten synchronisiert. Die lokale Android-Benachrichtigungsplanung wird auf jedem Gerät aktualisiert.
+
 # Ghuraba 0.1.10
 
 - Offene Dailys von gestern können am folgenden Tag über den kompakten Hinweis „Gestern nachtragen“ geöffnet und abgehakt werden.
