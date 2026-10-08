@@ -4,6 +4,13 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.13
+
+- Beim Aktivieren des Ghusl-Trackers wird nach dem Anlass gefragt. Eigene Entscheidungen können mit einer kurzen Reflexion und einem nächsten guten Schritt festgehalten werden. Natürliche oder eheliche Anlässe werden nicht als persönliches Scheitern behandelt; intime Details müssen nicht angegeben werden.
+- Die Reflexion kann bei aktivem Tracker angesehen und bearbeitet werden, ohne den Erinnerungsrhythmus neu zu starten.
+- Zwei abwechselnde Ghusl-Erinnerungen fordern freundlich zum Handeln auf: etwa zehn Minuten für Ghusl einplanen, Ablenkung beiseitelegen und zum Gebet zurückkehren. Der Abstand bleibt 30 Minuten bis zum Abhaken.
+- Persönliche Antworten bleiben im verschlüsselten Tresor und erscheinen nie im Benachrichtigungstext. Bestehende Ghusl-Einträge bleiben kompatibel.
+
 # Ghuraba 0.1.12
 
 - Unter Gebete gibt es einen Ghusl-Tracker. Nach „Ghusl erforderlich“ erinnert Android alle 30 Minuten, auch wenn die App geschlossen ist. „Ghusl erledigt“ beendet die Erinnerungen.
