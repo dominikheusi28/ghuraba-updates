@@ -4,6 +4,10 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.15
+
+- Die obere Leiste auf dem Handy hat mehr Abstand: Logo und Aktionen stehen in einer eigenen Zeile, der Speicher- und Synchronisierungsstatus darunter. Auch längere Statusmeldungen haben Platz.
+
 # Ghuraba 0.1.14
 
 - Screenshots und Bildschirmaufnahmen sind in der Android-App jetzt erlaubt.
