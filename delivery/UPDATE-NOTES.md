@@ -4,6 +4,13 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.12
+
+- Unter Gebete gibt es einen Ghusl-Tracker. Nach „Ghusl erforderlich“ erinnert Android alle 30 Minuten, auch wenn die App geschlossen ist. „Ghusl erledigt“ beendet die Erinnerungen.
+- Der Tracker speichert seinen Zustand und Startzeitpunkt im verschlüsselten Tresor und synchronisiert sie über das Konto. Benachrichtigungsberechtigung und Zustellung gelten pro Gerät; Android kann im Energiesparmodus verzögern.
+- Das Journal zeigt alle Gedanken, Dankbarkeitsantworten und datierten Tagesrückblicke direkt an, einschließlich Antworten aus dem Tagesplan. Eine Datumsauswahl ist zum Lesen nicht mehr nötig.
+- Jeder Eintrag zeigt Wochentag und vollständiges Datum. Suche und Kategorien schließen die früheren Antworten ein; bestehende Einträge bleiben erhalten.
+
 # Ghuraba 0.1.11
 
 - Wochenziele können jetzt als fehlgeschlagen markiert werden. Ein ehrlicher Grund ist verpflichtend und bleibt im Wochen- und Tagesrückblick sichtbar.
