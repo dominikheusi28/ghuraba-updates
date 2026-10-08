@@ -4,6 +4,10 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.14
+
+- Screenshots und Bildschirmaufnahmen sind in der Android-App jetzt erlaubt.
+
 # Ghuraba 0.1.13
 
 - Beim Aktivieren des Ghusl-Trackers wird nach dem Anlass gefragt. Eigene Entscheidungen können mit einer kurzen Reflexion und einem nächsten guten Schritt festgehalten werden. Natürliche oder eheliche Anlässe werden nicht als persönliches Scheitern behandelt; intime Details müssen nicht angegeben werden.
