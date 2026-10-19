@@ -4,6 +4,12 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.16
+
+- Abgehakte Ghusl-Waschungen werden mit Datum gespeichert. Der Tracker zeigt die Gesamtzahl; im Rückblick zählt eine eigene Karte die Waschungen im gewählten Zeitraum (7, 30 oder 90 Tage). Der Tagesverlauf zeigt die einzelnen Erledigungen.
+- Mehrere Waschungen am selben Tag zählen einzeln. Die Historie bleibt im verschlüsselten Tresor und wird mit dem Konto synchronisiert.
+- Die zuletzt gespeicherte Waschung aus älteren Versionen wird übernommen. Weitere frühere Waschungen sind nicht rekonstruierbar, weil ältere Versionen nur die letzte Erledigung gespeichert haben.
+
 # Ghuraba 0.1.15
 
 - Die obere Leiste auf dem Handy hat mehr Abstand: Logo und Aktionen stehen in einer eigenen Zeile, der Speicher- und Synchronisierungsstatus darunter. Auch längere Statusmeldungen haben Platz.
