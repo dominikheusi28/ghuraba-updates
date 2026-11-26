@@ -4,6 +4,11 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.21
+
+- Beim tatsächlichen Erscheinen des Sperrfensters vibriert das Handy dreimal kräftig (insgesamt etwa 1,2 Sekunden, ohne Wiederholungsschleife). Unter „App-Schutz“ lässt sich die Vibration ausschalten; die Einstellung bleibt auf diesem Gerät gespeichert.
+- Eine Sperransicht kann frühestens nach 15 Sekunden erneut vibrieren. Beim Schließen wird die laufende Vibration abgebrochen. Geräte ohne Vibrationsmotor oder abgelehnte Vibration beeinträchtigen die App-Sperre nicht. Die tatsächliche Stärke wird durch Hardware und Android-Einstellungen begrenzt.
+
 # Ghuraba 0.1.20
 
 - Neue Gestaltung in Anthrazit, Moosgrün und warmen Naturtönen, mit leichteren Übergängen, seitlich wischbaren Fokus-Vorlagen und einem echten Timer-Fortschrittsring. Die Startseite verlinkt direkt zum Fokus und zeigt den tatsächlichen Tagesfortschritt.
