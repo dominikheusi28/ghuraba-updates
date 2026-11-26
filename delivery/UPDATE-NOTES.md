@@ -4,6 +4,13 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.20
+
+- Neue Gestaltung in Anthrazit, Moosgrün und warmen Naturtönen, mit leichteren Übergängen, seitlich wischbaren Fokus-Vorlagen und einem echten Timer-Fortschrittsring. Die Startseite verlinkt direkt zum Fokus und zeigt den tatsächlichen Tagesfortschritt.
+- Sperrlogik korrigiert: Die Zeitprüfung läuft auch auf nicht ausgewählten Apps und Systemoberflächen weiter. Tastaturfenster ersetzen nicht mehr die erkannte App. Zusätzlich werden Paketnamen aus Fokus- und Klickereignissen verarbeitet, ohne Bildschirmtexte, Eingaben oder Accessibility-Nodes auszulesen.
+- Ein einminütiger Sperrtest öffnet eine ausgewählte App. Während einer laufenden Sitzung prüft er die bestehende Sperre, ohne deren Ende zu verändern. Diagnose zeigt getrennt empfangene App-Ereignisse und tatsächlich aufgebaute Sperransichten; eine Berechtigung allein bestätigt keine funktionierende Sperre.
+- Android-Emulatortest als zusätzliche Freigabeprüfung: echte Test-App, Sperrfenster, Notfallpause, Fortsetzen, freie Systemeinstellungen und geplanter Start. Ein Emulator ersetzt keinen Praxistest auf Samsung/One UI.
+
 # Ghuraba 0.1.19
 
 - Neuer Android-Einrichtungscheck unter „Fokus & App-Schutz“: zeigt getrennt die Android-Berechtigung, die tatsächliche Verbindung des Bedienungshilfendienstes, die App-Benachrichtigungsfreigabe und den Fokus-Kanal. Nach Rückkehr aus Android und über „Erneut prüfen“ wird neu abgefragt.
