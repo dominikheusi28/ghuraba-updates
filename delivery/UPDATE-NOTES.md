@@ -4,6 +4,12 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.18
+
+- Fokuszeiten können mit einer Startuhrzeit für heute oder morgen geplant werden. Vorher beginnt keine Fokus-Sperre; der Gebetsmodus bleibt unabhängig davon aktiv. Vor dem Start kann die Planung abgesagt werden.
+- Zwei dezente Fokusmeldungen: fünf Minuten vor einer geplanten Sitzung (bei ausreichendem Vorlauf) und zum Start mit der Dauer. Sofort gestartete Sitzungen erhalten nur die Startmeldung. Persönliche Absichten und App-Namen erscheinen nicht auf dem Sperrbildschirm.
+- Abgesagte oder vorzeitig beendete Sitzungen entfernen ihre geplanten Fokusmeldungen. Beim erneuten Öffnen einer laufenden Sitzung wird keine weitere Startmeldung ausgelöst. Die Benachrichtigungsberechtigung ist unabhängig vom App-Schutz; Android kann die Zustellung verzögern.
+
 # Ghuraba 0.1.17
 
 - Neuer Bereich „Fokus & App-Schutz“ auf Heute und unter Einstellungen. Wähle Apps auf deinem Android-Gerät, eine Absicht und eine Fokuszeit von 1 bis 480 Minuten. Ruhige Naturkarten, ein klarer Countdown und eine sanfte Atemanimation begleiten die Bedienung.
