@@ -4,6 +4,14 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.17
+
+- Neuer Bereich „Fokus & App-Schutz“ auf Heute und unter Einstellungen. Wähle Apps auf deinem Android-Gerät, eine Absicht und eine Fokuszeit von 1 bis 480 Minuten. Ruhige Naturkarten, ein klarer Countdown und eine sanfte Atemanimation begleiten die Bedienung.
+- Der freiwillige Android-Bedienungshilfendienst sperrt ausgewählte Apps auch bei geschlossener Ghuraba-Oberfläche. Er erkennt nur App-Paketnamen und liest keine Bildschirminhalte oder Eingaben. Ohne selbst aktivierten Dienst gibt es keine App-Sperre.
+- Optionaler Gebetsmodus: Sperre ab Gebetsbeginn bis zum Eintrag „gebetet“ oder „pausiert“. Beim nächsten Gebet beginnt ein neues Zeitfenster. Der Offline-Plan reicht 30 Tage und wird beim Öffnen aktualisiert. Nach Standort-/Zeitzonenänderung Ghuraba öffnen und die Zeiten prüfen.
+- Normale Unterbrechungen: 20 Sekunden innehalten, anschließend 5 Minuten freigeben oder Fokuszeit beenden. Notfälle: jederzeit sofort 10 Minuten freigeben, ohne Begrenzung der Anzahl. Laufende Fokuszeiten werden durch eine Freigabe nicht verlängert.
+- Telefon, Notruf, Systemeinstellungen und Ghuraba bleiben zugänglich; der Dienst kann jederzeit in Android deaktiviert werden. App-Auswahl, Freigaben und die letzten 30 Timer-Sitzungen bleiben auf diesem Gerät und werden nicht mit dem Tresor synchronisiert. Fokuszeiten bezeichnen Timer-Laufzeit, keine gemessene Konzentration oder Bildschirmzeit.
+
 # Ghuraba 0.1.16
 
 - Abgehakte Ghusl-Waschungen werden mit Datum gespeichert. Der Tracker zeigt die Gesamtzahl; im Rückblick zählt eine eigene Karte die Waschungen im gewählten Zeitraum (7, 30 oder 90 Tage). Der Tagesverlauf zeigt die einzelnen Erledigungen.
