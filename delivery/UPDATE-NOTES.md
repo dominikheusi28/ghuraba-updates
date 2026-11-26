@@ -4,6 +4,14 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.19
+
+- Neuer Android-Einrichtungscheck unter „Fokus & App-Schutz“: zeigt getrennt die Android-Berechtigung, die tatsächliche Verbindung des Bedienungshilfendienstes, die App-Benachrichtigungsfreigabe und den Fokus-Kanal. Nach Rückkehr aus Android und über „Erneut prüfen“ wird neu abgefragt.
+- Die zusätzliche Berechtigung für exakte Alarme wird nicht mehr angefordert, da alle Ghuraba-Erinnerungen bereits bewusst ungenau geplant werden. Das reduziert Berechtigungen, ändert aber keine Play-Protect-Einstufung.
+- Eine eingeschaltete Bedienungshilfe ohne verbundenen Dienst wird nicht als einsatzbereiter App-Schutz bestätigt. Fokuszeiten lassen sich dann noch nicht starten. Fehler beim Erstellen der Sperransicht werden gesondert angezeigt.
+- Eine Testmeldung kann angefordert werden. Planung und von Android gemeldete Veröffentlichung werden ausdrücklich getrennt; Energiesparen, Nicht-stören und Samsung-Schlaflisten können die Sichtbarkeit weiterhin beeinflussen.
+- Hilfen unterscheiden eingeschränkte Einstellungen, Samsung Auto Blocker und Play Protect. Der Check liest keine Play-Protect-Bewertung aus und hebt keine Sicherheitswarnungen auf. Bei einer Schädlichkeitswarnung bleibt die Empfehlung: Sperre nicht umgehen, Meldung prüfen und gegebenenfalls Google um Überprüfung bitten.
+
 # Ghuraba 0.1.18
 
 - Fokuszeiten können mit einer Startuhrzeit für heute oder morgen geplant werden. Vorher beginnt keine Fokus-Sperre; der Gebetsmodus bleibt unabhängig davon aktiv. Vor dem Start kann die Planung abgesagt werden.

@@ -1,1 +1,1 @@
-bfa1b0629be380fa3c37bfa89ae655d09a7ede216ddfc9a08d73bf8ad84d7d39  Ghuraba-0.1.18-build1022.apk
+f3aff1c0c2580c0e5e99901ea729c818e66edf6817771395b1d1da94e1bb7b73  Ghuraba-0.1.19-build1023.apk
