@@ -4,6 +4,14 @@ Supabase und GitHub sind produktiv verbunden. Kontositzungen bleiben über App-N
 
 APK herunterladen, öffnen und das Update in Android bestätigen. Die vorhandene App nicht deinstallieren. Die Paket-ID und der Signaturschlüssel bleiben gleich, damit bestehende Daten bei einem regulären Update erhalten bleiben.
 
+# Ghuraba 0.1.22
+
+- Wiederkehrende Fokuspläne nach dem Vorbild der bereitgestellten Opal-Bilder: „Study Time“, „Abendruhe“ und „Zeit im Grünen“ als anpassbare Vorlagen, Bildkarten, kompakter Dialog, feste Start-/Endzeiten und wählbare Wochentage.
+- Jeder Plan hat seine eigene App-Auswahl. Die Regeln werden auf Android gespeichert und gelten auch bei geschlossener Ghuraba-App mit aktivierter Bedienungshilfe. Pläne können bearbeitet, pausiert und gelöscht werden; Zeitfenster über Mitternacht gehören zum Starttag.
+- Normale Pausen haben 20 Sekunden Wartezeit, strengere Pläne 60 Sekunden. Die sofortige Notfallfreigabe und freie System-/Telefonfunktionen bleiben erhalten. Bei überlappenden Regeln bleiben Apps gesperrt, solange mindestens eine passende Regel aktiv ist.
+- Optionale wöchentliche Hinweise fünf Minuten vorher und zum Start, unabhängig vom einmaligen Fokus-Timer. Android kann Benachrichtigungen verzögern. Nach einer Zeitzonenänderung Ghuraba öffnen, damit auch die geplanten Erinnerungen neu angelegt werden; Sperrregeln verwenden die aktuelle Geräte-Zeitzone.
+- Pläne sind gerätelokal, nicht Teil des verschlüsselten Kontotresors. Ein Browser zeigt die Vorschau; tatsächliche Sperren benötigen die Android-App.
+
 # Ghuraba 0.1.21
 
 - Beim tatsächlichen Erscheinen des Sperrfensters vibriert das Handy dreimal kräftig (insgesamt etwa 1,2 Sekunden, ohne Wiederholungsschleife). Unter „App-Schutz“ lässt sich die Vibration ausschalten; die Einstellung bleibt auf diesem Gerät gespeichert.
